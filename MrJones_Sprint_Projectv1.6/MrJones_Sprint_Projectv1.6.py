@@ -25,13 +25,16 @@ def fahrenheit_to_celsius():
     print('Tempature in Celsius: {0}'.format(C))
 
 if __name__ == '__main__':
-    print_menu()
-    choice = input('Which would you like to do today?: ')
-    if choice == '1':
-        km_miles()
-    if choice == '2':
-        miles_km()
-    if choice == '3':
-        celsius_to_fahrenheit()
-    if choice =='4':
-        fahrenheit_to_celsius()
+    while True:
+        print_menu()
+        choice = input('Which would you like to do today?(Press q to quit): ')
+        if choice == 'q':
+            break
+        if choice == '1':
+            km_miles()
+        if choice == '2':
+            miles_km()
+        if choice == '3':
+            celsius_to_fahrenheit()
+        if choice =='4':
+            fahrenheit_to_celsius()
