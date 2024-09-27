@@ -17,12 +17,12 @@ def miles_km():
 def celsius_to_fahrenheit():
     C = float(input('Please enter the Tempature value in Celsius: '))
     F = C * (9 / 5) + 32
-    print('Tempature in Farenheit: {0}'.format(F)')
+    print('Tempature in Farenheit: {0}'.format(F))
     
 def fahrenheit_to_celsius():
     F = float(input('Please enter the Tempature value in Farenheit: '))
     C = (F + 32) * (9 / 5)
-    print('Tempature in Celsius: {0}'.format(C)')
+    print('Tempature in Celsius: {0}'.format(C))
 
 if __name__ == '__main__':
     print_menu()
