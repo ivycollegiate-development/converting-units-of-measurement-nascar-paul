@@ -1,8 +1,8 @@
 def print_menu():
     print('1. Kilometers to Miles')
     print('2. Miles to Kilometers')
-    print('3. ')
-    print('4. ')
+    print('3. Fahrenheit to Celsius')
+    print('4. Celsius to Fahrenheit')
 
 def km_miles():
     km = float((input('Please enter distance in Kilometers: ')))
@@ -33,3 +33,5 @@ if __name__ == '__main__':
         miles_km()
     if choice == '3':
         celsius_to_fahrenheit()
+    if choice =='4':
+        fahrenheit_to_celsius()
