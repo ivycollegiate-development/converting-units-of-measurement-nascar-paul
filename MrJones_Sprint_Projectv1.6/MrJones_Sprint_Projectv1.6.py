@@ -26,6 +26,12 @@ def fahrenheit_to_celsius():
     C = (F - 32) * (9 / 5)
     print('Tempature in Celsius: {0}'.format(C))
 
+tempature_facts = [
+"Earth's core is 9,392 °F.",
+"212 °F is the boiling point of water.",
+"The highest recorded temperature on Earth was in Death Valley, California where it reached 134 °F in 1913."
+]
+
 if __name__ == '__main__':
     while True:
         print_menu()
