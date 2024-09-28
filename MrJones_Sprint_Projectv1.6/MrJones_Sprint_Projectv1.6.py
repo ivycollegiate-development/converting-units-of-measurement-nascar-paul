@@ -1,3 +1,5 @@
+import random
+
 def print_menu():
     print('1. Kilometers to Miles')
     print('2. Miles to Kilometers')
@@ -21,7 +23,7 @@ def celsius_to_fahrenheit():
     
 def fahrenheit_to_celsius():
     F = float(input('Please enter the Tempature value in Farenheit: '))
-    C = (F + 32) * (9 / 5)
+    C = (F - 32) * (9 / 5)
     print('Tempature in Celsius: {0}'.format(C))
 
 if __name__ == '__main__':
