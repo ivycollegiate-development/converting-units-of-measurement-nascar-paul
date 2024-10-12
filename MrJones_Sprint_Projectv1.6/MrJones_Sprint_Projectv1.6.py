@@ -51,6 +51,6 @@ if __name__ == '__main__':
         if choice == '2':
             miles_km()
         if choice == '3':
-            celsius_to_fahrenheit()
-        if choice =='4':
             fahrenheit_to_celsius()
+        if choice =='4':
+            celsius_to_fahrenheit()
